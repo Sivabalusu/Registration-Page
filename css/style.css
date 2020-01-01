@@ -1,0 +1,70 @@
+body
+{
+    background-color: #008ae6;
+    font-family: sans-serif;
+}
+main
+{
+    margin-left: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.formDiv
+{
+    border: 2px;
+    border-color: "blue";
+    border-style: solid;
+    width: 60%;
+    background-color: white;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 20px
+}
+.formDiv form
+{
+    padding-left: 10px;
+}
+.formDiv h1
+{
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid;
+    text-align: center;
+    background-color: lawngreen;
+    height:40px;
+    margin-bottom: 20px;
+    
+}
+.required
+{
+    color: red;
+}
+.formDiv label
+{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.formDiv label > span
+{
+    font-weight: bold;
+    float: left;
+}
+.formDiv .input
+{
+    
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px gray;
+    border-radius: 3px;
+    padding: 10px;
+    width: 495px;
+}
+.formDiv input[type="submit"],input[type="reset"]
+{
+    background-color: lawngreen;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 70px;
+    width: 140px;
+    height: 50px;
+}
+
